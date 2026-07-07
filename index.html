@@ -6,9 +6,10 @@
     <title>Lawzah Saleh | Front-End Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,8 +19,9 @@
 
     <nav class="navbar">
 
-        <h2 class="logo">Lawzah | Full Stack Dev</h2>
-
+        <a href="#home" class="logo">
+            Lawzah<span>.</span>
+        </a>
        <ul class="nav-links" id="navLinks">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -46,22 +48,35 @@
         <h2>Full Stack Web Developer</h2>
 
         <p class="description">
-        I build modern, scalable, and high-performance web applications using Laravel, Vue.js, and modern JavaScript. I focus on clean architecture, usability, and real-world problem solving.
-        </p>  
+I       build modern, scalable, and user-focused web applications using Laravel, Vue.js, PHP, and JavaScript. Passionate about clean code, performance optimization, and creating digital experiences that solve real-world problems.       
+         </p>  
 
- <div class="hero-actions">
+<div class="hero-actions">
 
-    <a href="#projects" class="btn primary">View My Work</a>
+    <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+    <div class="social-links">
 
-    <a href="#contact" class="btn secondary">Contact Me</a>
+    <a href="https://github.com/Lawzah-Saleh" target="_blank" aria-label="GitHub">
+<i class="bi bi-github"></i> GitHub    </a>
+
+    <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" aria-label="LinkedIn">
+<i class="bi bi-linkedin"></i> LinkedIn   </a>
+
+    <a href="mailto:lawzah.s.alsaadi@gmail.com" aria-label="Email">
+<i class="bi bi-envelope-fill"></i> Email
+        </a>
+
+</div>
 
     <div class="hero-tags">
-
-        <span>Full Stack</span>
         <span>Laravel</span>
         <span>Vue.js</span>
-        <span>APIs</span>
-
+        <span>JavaScript</span>
+        <span>REST APIs</span>
+        <span>Git</span>
     </div>
 
 </div>
@@ -83,96 +98,286 @@
 
         <div class="about-content">
 
-            <h2 class="section-title">About Me</h2>
-
-            <p>
-                I am a passionate Front-End Developer focused on building modern, responsive,
-                and user-friendly web applications. I enjoy turning ideas into real projects
-                using HTML, CSS, JavaScript, and Vue.js.
-            </p>
-
+            <h2 class="section-title">
+                About <span>Me</span>
+            </h2>
            <p>
-            I am a self-driven developer focused on building real-world web applications. I enjoy solving problems, optimizing performance, and turning ideas into production-ready systems.
+            I'm a passionate Full Stack Developer who enjoys building modern, scalable, and user-friendly web applications. I focus on writing clean code, creating responsive interfaces, and developing reliable backend solutions with Laravel and modern JavaScript technologies.
             </p>
 
-            <div class="about-info">
+          <div class="about-info">
 
-                <div>
-                    <span>📍 Location</span>
-                    <p>Yemen</p>
-                </div>
+ <div class="info-card">
 
-                <div>
-                    <span>💼 Status</span>
-                    <p>Available for Work</p>
-                </div>
+    <div class="info-header">
 
-                <div>
-                    <span>🎯 Focus</span>
-                    <p>Front-End Development</p>
-                </div>
-
-            </div>
-
+        <div class="info-icon">
+            <i class="bi bi-code-slash"></i>
         </div>
+
+        <h3>Clean Code</h3>
+
+    </div>
+
+    <p>
+        Writing maintainable, scalable, and well-structured code.
+    </p>
+
+</div>
+
+
+<div class="info-card">
+
+    <div class="info-header">
+
+        <div class="info-icon">
+            <i class="bi bi-speedometer2"></i>
+        </div>
+
+        <h3>Performance</h3>
+
+    </div>
+
+    <p>
+        Optimized websites with fast loading and smooth user experience.
+    </p>
+
+</div>
+
+
+<div class="info-card">
+
+    <div class="info-header">
+
+        <div class="info-icon">
+            <i class="bi bi-phone"></i>
+        </div>
+
+        <h3>Responsive Design</h3>
+
+    </div>
+
+    <p>
+        Creating interfaces that work beautifully on every device.
+    </p>
+
+</div>
+
+
+<div class="info-card">
+
+    <div class="info-header">
+
+        <div class="info-icon">
+            <i class="bi bi-rocket-takeoff"></i>
+        </div>
+
+        <h3>Continuous Learning</h3>
+
+    </div>
+
+    <p>
+        Always improving my skills and exploring new technologies.
+    </p>
+
+</div>
 
     </div>
 
     </section>
-        <section class="skills" id="skills">
+      <section class="skills" id="skills">
 
-    <h2 class="section-title">My Skills</h2>
+    <h2 class="section-title">
+        My <span>Skills</span>
+    </h2>
+
 
     <div class="skills-container">
 
-        <div class="skill">
-            <p>HTML</p>
-            <div class="progress"><span style="width: 95%"></span></div>
+
+        <!-- Frontend -->
+        <div class="skill-category">
+
+            <div class="category-header">
+
+                <div class="category-icon">
+                    <i class="bi bi-window"></i>
+                </div>
+
+                <h3>Frontend Development</h3>
+
+            </div>
+
+
+            <div class="tech-list">
+
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>Vue</span>
+                <span>React</span>
+
+            </div>
+
+
         </div>
 
-        <div class="skill">
-            <p>CSS</p>
-            <div class="progress"><span style="width: 90%"></span></div>
+
+
+
+        <!-- Backend -->
+        <div class="skill-category">
+
+
+            <div class="category-header">
+
+                <div class="category-icon">
+                    <i class="bi bi-server"></i>
+                </div>
+
+                <h3>Backend Development</h3>
+
+            </div>
+
+
+            <div class="tech-list">
+
+                <span>PHP</span>
+                <span>Laravel</span>
+                <span>REST API</span>
+
+            </div>
+
+
         </div>
 
-        <div class="skill">
-            <p>JavaScript</p>
-            <div class="progress"><span style="width: 75%"></span></div>
+
+
+
+
+        <!-- Database -->
+        <div class="skill-category">
+
+
+            <div class="category-header">
+
+                <div class="category-icon">
+                    <i class="bi bi-database"></i>
+                </div>
+
+                <h3>Database & Tools</h3>
+
+            </div>
+
+
+            <div class="tech-list">
+
+                <span>MySQL</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+
+            </div>
+
+
         </div>
 
-        <div class="skill">
-            <p>Vue.js</p>
-            <div class="progress"><span style="width: 70%"></span></div>
+
+
+
+
+        <!-- Additional -->
+        <div class="skill-category">
+
+
+            <div class="category-header">
+
+                <div class="category-icon">
+                    <i class="bi bi-lightbulb"></i>
+                </div>
+
+                <h3>Professional Skills</h3>
+
+            </div>
+
+
+            <div class="tech-list">
+
+                <span>Responsive Design</span>
+                <span>Clean Code</span>
+                <span>Problem Solving</span>
+                <span>Continuous Learning</span>
+
+            </div>
+
+
         </div>
 
-        <div class="skill">
-            <p>Laravel</p>
-            <div class="progress"><span style="width: 65%"></span></div>
-        </div>
 
     </div>
 
-    </section>
-    <section class="services" id="services">
+</section>
+  <section class="services" id="services">
 
-    <h2 class="section-title">What I Do</h2>
+    <h2 class="section-title">
+        What I <span>Do</span>
+    </h2>
+
 
     <div class="services-container">
 
+
         <div class="service-box">
+
+            <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+            </div>
+
             <h3>Frontend Development</h3>
-            <p>Building responsive and modern user interfaces.</p>
+
+            <p>
+                Creating modern, responsive, and user-friendly interfaces
+                using HTML, CSS, JavaScript, and modern frameworks.
+            </p>
+
         </div>
 
+
+
         <div class="service-box">
+
+            <div class="service-icon">
+                <i class="bi bi-server"></i>
+            </div>
+
             <h3>Backend Development</h3>
-            <p>Creating secure APIs and server-side logic with Laravel & PHP.</p>
+
+            <p>
+                Building secure and scalable backend systems with PHP,
+                Laravel, databases, and RESTful APIs.
+            </p>
+
         </div>
 
+
+
         <div class="service-box">
+
+            <div class="service-icon">
+                <i class="bi bi-layers"></i>
+            </div>
+
             <h3>Full Stack Solutions</h3>
-            <p>Connecting frontend and backend into complete web applications.</p>
+
+            <p>
+                Developing complete web applications by connecting
+                powerful backend systems with modern frontend experiences.
+            </p>
+
         </div>
+
+
 
     </div>
 
@@ -207,27 +412,107 @@
     </div>
 
     </section>
-    <section class="contact" id="contact">
+   <section class="contact" id="contact">
 
-    <h2 class="section-title">Contact Me</h2>
+    <h2 class="section-title">
+        Contact <span>Me</span>
+    </h2>
+
 
     <div class="contact-container">
 
+
+        <div class="contact-info">
+
+
+            <h3>Let's Work Together</h3>
+
+            <p>
+                Have a project idea or want to collaborate?
+                Feel free to contact me. I am always open to new opportunities.
+            </p>
+
+
+            <div class="contact-item">
+
+                <i class="bi bi-envelope"></i>
+
+                <span>
+                    lawzah.s.alsaadi@gmail.com
+                </span>
+
+            </div>
+
+
+
+            <div class="contact-item">
+
+                <i class="bi bi-github"></i>
+
+                <span>
+                    GitHub
+                </span>
+
+            </div>
+
+
+
+            <div class="contact-item">
+
+                <i class="bi bi-linkedin"></i>
+
+                <span>
+                    LinkedIn
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+
+
         <form class="contact-form">
 
-            <input type="text" placeholder="Your Name" required>
 
-            <input type="email" placeholder="Your Email" required>
+            <div class="input-group">
 
-            <textarea rows="6" placeholder="Your Message" required></textarea>
+                <input type="text" placeholder="Your Name" required>
 
-            <button type="submit">Send Message</button>
+            </div>
+
+
+            <div class="input-group">
+
+                <input type="email" placeholder="Your Email" required>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <textarea rows="6" placeholder="Your Message" required></textarea>
+
+            </div>
+
+
+            <button type="submit">
+
+                Send Message
+                <i class="bi bi-send"></i>
+
+            </button>
+
 
         </form>
 
+
+
     </div>
 
-    </section>
+
+</section>
 
     </main>
 
