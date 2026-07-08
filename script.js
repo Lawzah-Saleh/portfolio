@@ -42,31 +42,24 @@ const form = document.querySelector(".contact-form");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-
     alert("Message sent successfully 🚀");
-
     form.reset();
 });
 const contactSection = document.querySelector(".contact");
-
 window.addEventListener("scroll", () => {
     const pos = contactSection.getBoundingClientRect().top;
     const screen = window.innerHeight / 1.3;
-
     if(pos < screen){
         contactSection.classList.add("show");
     }
 });
-
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 const links = document.querySelectorAll(".nav-links a");
-
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("show");
     menuToggle.textContent = navLinks.classList.contains("show") ? "✖" : "☰";
 });
-
 // close menu when clicking a link
 links.forEach(link => {
     link.addEventListener("click", () => {
@@ -75,7 +68,6 @@ links.forEach(link => {
     });
 });
 const header = document.querySelector("header");
-
 window.addEventListener("scroll", () => {
     if(window.scrollY > 10){
         header.classList.add("scrolled");
