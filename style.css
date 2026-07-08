@@ -891,9 +891,6 @@ body.light .theme-toggle{
     align-items:center;
 
 }
-
-
-
 .contact-info{
 
     background:var(--card);
@@ -906,8 +903,6 @@ body.light .theme-toggle{
 
 }
 
-
-
 .contact-info h3{
 
     font-size:26px;
@@ -917,9 +912,6 @@ body.light .theme-toggle{
     color:var(--primary);
 
 }
-
-
-
 .contact-info p{
 
     color:#94a3b8;
@@ -929,9 +921,6 @@ body.light .theme-toggle{
     margin-bottom:25px;
 
 }
-
-
-
 .contact-item{
 
     display:flex;
@@ -945,8 +934,6 @@ body.light .theme-toggle{
     color:#e2e8f0;
 
 }
-
-
 
 .contact-item i{
 
@@ -968,9 +955,6 @@ body.light .theme-toggle{
 
 }
 
-
-
-
 .contact-form{
 
     background:var(--card);
@@ -982,8 +966,6 @@ body.light .theme-toggle{
     border:1px solid rgba(255,255,255,.08);
 
 }
-
-
 
 .contact-form input,
 .contact-form textarea{
@@ -1055,7 +1037,6 @@ body.light .theme-toggle{
     color: #38bdf8;
 }
 
-/* Mobile */
 @media (max-width: 768px){
 
     .menu-toggle{
